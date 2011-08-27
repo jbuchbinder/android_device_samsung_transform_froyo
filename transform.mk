@@ -130,4 +130,4 @@ ro.telephony.call_ring.multiple=false
 PRODUCT_NAME := full_transform
 PRODUCT_DEVICE := transform
 PRODUCT_BRAND := Android
-PRODUCT_MODEL := Full Android on transform
+PRODUCT_MODEL := Full Android on Transform
