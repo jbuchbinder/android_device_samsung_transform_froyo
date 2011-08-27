@@ -1,0 +1,27 @@
+#
+# system.prop for transform
+#
+
+rild.libpath=/system/lib/libsec-ril40.so
+rild.libargs=-d /dev/ttyS0
+keyguard.no_require_sim=true
+ro.sf.lcd_density=160
+ro.setupwizard.mode=DISABLED
+wifi.interface=eth0
+
+ro.media.dec.aud.wma.enabled=1
+ro.media.dec.vid.wmv.enabled=1
+
+ro.cdma.home.operator.alpha=Sprint
+ro.cdma.home.operator.numeric=310120
+ril.sales_code=SPR
+ro.telephony.default_network=0
+
+net.dns1=8.8.4.4
+net.dns2=8.8.8.8
+
+#
+# multitouch support
+#
+ro.product.multi_touch_enabled=true
+ro.product.max_num_touch=2
